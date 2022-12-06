@@ -1,17 +1,17 @@
 apiVersion: v1
 data:
-  apiToken: ZHQwYzAxLk5PS0NCUlZMTUYyUlZMWVpBUFlEWEVUMy5XUzMzSlFRSkRDNjVDNU5DWjJNNlZJQ000UkRYVFpaRjRNSzM0M1pQUFBYQldPNVdVTFRMTVpPTzZaUjQyWlpF
-  dataIngestToken: ZHQwYzAxLkFFNldMNFpBTU1NSFpIWVlKSFNNTFA0Vy5URTdGQzNYNk43TEczNDJJQkdPVkhLQVdCQ0dCVTcyWUg1RlZITFg1SzVEUTJQRVVUTkRKM1NUSVJYSUpNWFcz
+  apiToken: ZHQwYzAxLkI3NDJUUENOQTRLTk1JWEZPWVYzQ0c3WS5LWVBNSklKUDU1WFlSUFNCTERVMk5DTFUyRERFREtNVlc1SEYySU40Rk5KWDJXVjVVWkxNNlpMUlgyM0haWFMz
+  dataIngestToken: ZHQwYzAxLjJDU0w1WlFVS1gzNENMV1pIQVlRQUQ3SC5DUFk1TEdYUTQ1U01ESUxWV0tUQ0RBQ05JSk9MSkhVWVdEMlY2TjNFUEZaRU9FNVhVTDRXMkpMR1I1SE82UzQ2
 kind: Secret
 metadata:
-  name: dynatrace
+  name: online-boutique
   namespace: dynatrace
 type: Opaque
 ---
 apiVersion: dynatrace.com/v1beta1
 kind: DynaKube
 metadata:
-  name: dynatrace
+  name: online-boutique
   namespace: dynatrace
   annotations:
     feature.dynatrace.com/automatic-kubernetes-api-monitoring: "true"
